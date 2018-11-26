@@ -1,0 +1,25 @@
+.large-menu-classname, .small-menu-classname {
+    background-color: #262626;
+    position: fixed;
+    width: 100%;
+    color: white;
+    z-index: 500;
+}
+
+.small-menu-classname {
+    padding-top: 10px;
+    min-height: 40px;
+    color: white;
+    animation: fadein 0.5s;
+}
+
+.small-menu-classname ul {
+    margin-left: 0px;
+}
+
+.large-menu-classname ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0px;
+}
